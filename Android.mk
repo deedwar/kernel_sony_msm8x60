@@ -4,7 +4,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-KERNEL_DEFCONFIG := fuji_nozomi_defconfig
+KERNEL_DEFCONFIG := fuji_hikari_row_defconfig
 KERNEL_DIR := $(ANDROID_BUILD_TOP)/kernel/nozomi
 -include $(KERNEL_DIR)/AndroidKernel.mk
 
